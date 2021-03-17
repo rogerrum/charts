@@ -26,7 +26,7 @@ env:
   DB_CONN: postgres
   # -- Postgres database hostname
   # @default -- internal postgresql URL
-  DB_HOST: ""
+  #DB_HOST: ""
   # -- Enable ssl_mode for postgres (To enable use require)
   POSTGRES_SSLMODE: "disable"
   # -- Postgres database user name
@@ -34,14 +34,14 @@ env:
   DB_USER: ""
   # -- Postgres database password
   # @default -- postgresql.postgresqlPassword value
-  DB_PASS: ""
+  #DB_PASS: ""
   # -- Postgres database password
   # @default -- postgresql.postgresqlDatabase value
   DB_DATABASE: ""
   # -- dashboard admin user (needed to edit)
   ADMIN_USER: admin
   # -- dashboard admin password (needed to edit)
-  ADMIN_PASSWORD: admin
+  #ADMIN_PASSWORD: admin
   # -- dashboard admin email
   ADMIN_EMAIL: info@example.com
   # -- Use CDN for static context from third-parties
